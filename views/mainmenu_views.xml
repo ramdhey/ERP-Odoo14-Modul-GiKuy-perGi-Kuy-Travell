@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+<!--Menu Root atau Judul "Pergi Kuy Travell" -->
+<!-- This Menu Item will appear in the Upper bar, that's why It needs NO parent or action -->
+<menuitem id="gikuy_menu_root" name="Pergi Kuy Travell" sequence="10"/>
+
+<!--END Menu Root -->
+
+
+<!--MENU CATEGORY-->
+
+
+    <!--# Menu Category Paket Wisata-->
+<!-- This Menu Item Must have a parent -->
+<menuitem id="gikuy_paket_menu_categ" name="Paket Wisata" parent="gikuy_menu_root" sequence="10"/>
+
+<!--# END Menu Category Paket Wisata-->
+
+
+    <!--# Menu Category Akomodasi & Destinasi-->
+<!-- This Menu Item Must have a parent -->
+
+<menuitem id="gikuy_akomodasi_menu_categ" name="Akomodasi dan Destinasi" parent="gikuy_menu_root" sequence="20"/>
+    <!--# END Menu Category Akomodasi & Destinasi-->
+
+
+<!-- This Menu Item Must have a parent -->
+<!-- <menuitem id="_menu_categ" name="" parent="" sequence=""/> -->
+
+
+
+
+<!--END MENU CATEGORY-->
+    
+</odoo>

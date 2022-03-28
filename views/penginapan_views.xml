@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+
+
+<!-- gikuy.penginapan tree view -->
+<record id="gikuy_penginapan_view_tree" model="ir.ui.view">
+    <field name="name">Penginapan</field>
+    <field name="model">gikuy.penginapan</field>
+    <field name="arch" type="xml">
+        <tree>
+            <!-- Add your fields here -->
+           
+            <field name="name"/>
+            <field name="harga"/>
+            <field name="detail"/>
+
+
+
+            
+        </tree>
+    </field>
+</record>
+
+<!--END TREE-->
+
+
+
+<!--Action nya -->
+<!-- gikuy.penginapan action window -->
+<record id="gikuy_penginapan_action" model="ir.actions.act_window">
+    <field name="name">Daftar Penginapan</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">gikuy.penginapan</field>
+    <field name="view_mode">tree,form</field>
+    
+</record>
+<!--END Action nya-->
+
+<!--penginapan Menu Action-->
+    <!-- This Menu Item must have a parent and an action -->
+    <menuitem id="gikuy_penginapan_menu_act" name="Penginapan" parent="gikuy_akomodasi_menu_categ" action="gikuy_penginapan_action" sequence="20"/>
+<!--END Destinasi Menu Action-->
+</odoo>

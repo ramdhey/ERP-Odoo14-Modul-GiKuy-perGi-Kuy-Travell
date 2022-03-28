@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+
+
+<!--TREE Untuk Menampilkan Tabel -->
+<!-- gikuy.funtrip tree view -->
+<record id="gikuy_funtrip_view_tree" model="ir.ui.view">
+    <field name="name">Daftar List FunTrip</field>
+    <field name="model">gikuy.funtrip</field>
+    <field name="arch" type="xml">
+        <tree>
+            <!-- Add your fields here -->
+            <field name="name"/>
+            <field name="tanggalberangkat"/>
+            <field name="tanggaltiba"/>
+            <field name="makspeserta"/>
+            <field name="transportasi_id"/>
+            <field name="destinasi_id"/>
+            <field name="harga"/>
+            <field name="detail"/>
+
+
+
+            
+        </tree>
+    </field>
+</record>
+
+<!--END TREE-->
+
+
+<!--Action nya-->
+    <!-- gikuy.funtrip action window -->
+    <record id="gikuy_funtrip_action" model="ir.actions.act_window">
+        <field name="name">Pilihan Paket Fun Trip</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">gikuy.funtrip</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+<!--END Action nya-->
+
+
+
+<!--Menu Action-->    
+    <!-- This Menu Item must have a parent and an action -->
+    <menuitem id="gikuy_funtrip_menu_act" name="Paket FunTrip" parent="gikuy_paket_menu_categ" action="gikuy_funtrip_action" sequence="10"/>
+    
+<!--END Menu Action-->
+
+</odoo>

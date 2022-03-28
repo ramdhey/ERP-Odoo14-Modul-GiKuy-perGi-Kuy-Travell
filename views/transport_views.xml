@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+
+
+<!-- gikuy.transport tree view -->
+<record id="gikuy_transport_view_tree" model="ir.ui.view">
+    <field name="name">Transportasi</field>
+    <field name="model">gikuy.transport</field>
+    <field name="arch" type="xml">
+        <tree>
+            <!-- Add your fields here -->
+           
+            <field name="name"/>
+            <field name="mitraperusahaan"/>
+            <field name="harga"/>
+            <field name="detail"/>
+
+
+
+            
+        </tree>
+    </field>
+</record>
+
+<!--END TREE-->
+
+
+
+<!--Action nya -->
+<!-- gikuy.transport action window -->
+<record id="gikuy_transport_action" model="ir.actions.act_window">
+    <field name="name">Pilihan Transportasi</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">gikuy.transport</field>
+    <field name="view_mode">tree,form</field>
+    
+</record>
+<!--END Action nya-->
+
+<!--Destinasi Menu Action-->
+    <!-- This Menu Item must have a parent and an action -->
+    <menuitem id="gikuy_transport_menu_act" name="Transportasi" parent="gikuy_akomodasi_menu_categ" action="gikuy_transport_action" sequence="30"/>
+<!--END Destinasi Menu Action-->
+</odoo>

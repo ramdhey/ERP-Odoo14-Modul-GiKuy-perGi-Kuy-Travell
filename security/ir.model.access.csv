@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_gikuy_funtrip,access.gikuy.funtrip,model_gikuy_funtrip,,1,1,1,1
+access_gikuy_destinasi,access.gikuy.destinasi,model_gikuy_destinasi,,1,1,1,1
+access_gikuy_penginapan,access.gikuy.penginapan,model_gikuy_penginapan,,1,1,1,1
+access_gikuy_transport,access.gikuy.transport,model_gikuy_transport,,1,1,1,1
+
