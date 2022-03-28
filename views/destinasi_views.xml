@@ -11,8 +11,9 @@
         <tree>
             <!-- Add your fields here -->
            
+           
             <field name="name"/>
-            <field name="destinasinya"/>
+            
             <field name="harga"/>
             <field name="detail"/>
 
@@ -24,6 +25,35 @@
 </record>
 
 <!--END TREE-->
+
+
+
+<!--FORM Nya-->
+<!-- gikuy.destinasi form view -->
+    <record id="gikuy_destinasi_view_form" model="ir.ui.view">
+        <field name="name">Destinasi Wisata</field>
+        <field name="model">gikuy.destinasi</field>
+        <field name="arch" type="xml">
+        
+            <form string="Destinasi Wisata">
+            
+                <sheet>                
+                    <group>
+                        <!-- Add your fields here -->
+                        
+                        <field name="name"/>
+                        
+                        <field name="harga"/>
+                        <field name="detail"/>
+                                    
+                                                          
+                    </group> 
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+<!--END FORM Nya-->
 
 
 

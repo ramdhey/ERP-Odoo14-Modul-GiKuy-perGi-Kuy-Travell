@@ -6,3 +6,4 @@ from . import destinasi
 from . import transport
 
 from . import penginapan
+from . import order

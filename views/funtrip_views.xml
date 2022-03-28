@@ -17,6 +17,7 @@
             <field name="makspeserta"/>
             <field name="transportasi_id"/>
             <field name="destinasi_id"/>
+            <field name="penginapan_id"/>
             <field name="harga"/>
             <field name="detail"/>
 
@@ -29,6 +30,49 @@
 
 <!--END TREE-->
 
+
+
+<!--FORM Nya-->
+<!-- gikuy.funtrip form view -->
+    <record id="gikuy_funtrip_view_form" model="ir.ui.view">
+        <field name="name">Paket FunTrip</field>
+        <field name="model">gikuy.funtrip</field>
+        <field name="arch" type="xml">
+        
+            <form string="Paket FunTrip">
+            
+                <sheet>                
+                    <group>
+                        <!-- Add your fields here -->
+                        <field name="name"/> 
+                        <field name="tanggalberangkat"/>
+                        <field name="tanggaltiba"/>
+                        <field name="makspeserta"/>
+                        <field name="transportasi_id"/>
+                        <field name="destinasi_id"/>
+                        <field name="penginapan_id"/>
+                        <field name="harga"/>
+                        <field name="detail"/>
+                           
+                                                          
+                    </group>
+                    <notebook>
+                        <page string="Detail Destinasi">
+                            <field name="detaildestinasi"/>
+                        </page>
+                        <page string="Nama Perusahaan Mitra Transportasi">
+                            <field name="mitraperusahaantrans"/>
+                        </page>
+                        <page string="Detail Alat Transportasi">
+                            <field name="detailtransportasi"/>
+                        </page>
+                        
+                    </notebook> 
+                </sheet>
+            </form>
+        </field>
+    </record>
+<!--END FORM Nya-->
 
 <!--Action nya-->
     <!-- gikuy.funtrip action window -->

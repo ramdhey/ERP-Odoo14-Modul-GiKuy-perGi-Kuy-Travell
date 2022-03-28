@@ -25,6 +25,32 @@
 <!--END TREE-->
 
 
+<!--FORM Nya-->
+<!-- gikuy.transport form view -->
+    <record id="gikuy_penginapan_view_form" model="ir.ui.view">
+        <field name="name">Pilihan Penginapan</field>
+        <field name="model">gikuy.penginapan</field>
+        <field name="arch" type="xml">
+        
+            <form string="Pilihan Penginapan">
+            
+                <sheet>                
+                    <group>
+                        <!-- Add your fields here -->
+                        <field name="name"/>
+                        <field name="harga"/>
+                        <field name="detail"/>
+                                    
+                                                          
+                    </group> 
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+<!--END FORM Nya-->
+
+
 
 <!--Action nya -->
 <!-- gikuy.penginapan action window -->

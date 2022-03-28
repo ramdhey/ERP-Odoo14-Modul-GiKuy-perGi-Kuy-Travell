@@ -25,9 +25,14 @@
 <menuitem id="gikuy_akomodasi_menu_categ" name="Akomodasi dan Destinasi" parent="gikuy_menu_root" sequence="20"/>
     <!--# END Menu Category Akomodasi & Destinasi-->
 
-
+    
+    
+    <!--# Menu Category Order/Pesan -->
 <!-- This Menu Item Must have a parent -->
-<!-- <menuitem id="_menu_categ" name="" parent="" sequence=""/> -->
+<menuitem id="order_menu_categ" name="Pesan Sekarang" parent="gikuy_menu_root" sequence="30"/>
+    
+    
+    <!--#END Menu Category Order/Pesan -->
 
 
 

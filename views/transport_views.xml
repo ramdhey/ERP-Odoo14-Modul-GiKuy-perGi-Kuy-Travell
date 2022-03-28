@@ -26,6 +26,35 @@
 <!--END TREE-->
 
 
+<!--FORM Nya-->
+<!-- gikuy.transport form view -->
+    <record id="gikuy_transport_view_form" model="ir.ui.view">
+        <field name="name">Pilihan Alat Transportasi</field>
+        <field name="model">gikuy.transport</field>
+        <field name="arch" type="xml">
+        
+            <form string="Pilihan Alat Transportasi">
+            
+                <sheet>                
+                    <group>
+                        <!-- Add your fields here -->
+                        <field name="name"/>
+                        <field name="mitraperusahaan"/>
+                        <field name="harga"/>
+                        <field name="detail"/>
+                                    
+                                                          
+                    </group> 
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+<!--END FORM Nya-->
+
+
+
+
 
 <!--Action nya -->
 <!-- gikuy.transport action window -->
