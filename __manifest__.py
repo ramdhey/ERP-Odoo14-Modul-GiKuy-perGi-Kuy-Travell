@@ -34,6 +34,8 @@
         'views/destinasi_views.xml',
         'views/transport_views.xml',
         'views/order_views.xml',
+        'views/pekerja_views.xml',
+        
         
     ],
     # only loaded in demonstration mode

@@ -7,3 +7,4 @@ from . import transport
 
 from . import penginapan
 from . import order
+from . import res_patner

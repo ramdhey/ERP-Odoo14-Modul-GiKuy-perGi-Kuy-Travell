@@ -42,6 +42,8 @@
                         <field name="rinciorderan_ids">
                             <tree editable='bottom'>
                                 <field name="funtrip_id"/>
+                                <field name="hargaperunit"/>
+                                <field name="ava"/> 
                                 <field name="harga" sum="Total"/>                                        
                             </tree>
                         </field>                                                       
