@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="report_pergikuy_order" model="ir.actions.report">
+        <field name="name">Laporan Order </field>
+        <field name="model">gikuy.order</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">gikuy.report_pergikuy_order</field>
+        <field name="report_file">gikuy.report_pergikuy_order</field>
+        <field name="binding_model_id" ref="model_pergikuy_order"/>
+        <field name="binding_type">report</field>
+    </record>
+
+</odoo>

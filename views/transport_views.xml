@@ -11,8 +11,9 @@
         <tree>
             <!-- Add your fields here -->
            
-            <field name="name"/>
+            
             <field name="mitraperusahaan"/>
+            <field name="name"/>
             <field name="harga"/>
             <field name="detail"/>
 

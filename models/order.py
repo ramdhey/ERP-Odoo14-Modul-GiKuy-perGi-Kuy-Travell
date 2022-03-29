@@ -11,7 +11,10 @@ class Order(models.Model):
     
 
     name = fields.Char(string='ID Booking', required=True)
+    
     tanggal_booking = fields.Date(string='Tanggal Booking', default=fields.Date.today())
+
+    selesaicuy = fields.Boolean(string='Acara Telah Berakhir', default=False)
     
 
     

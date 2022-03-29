@@ -36,9 +36,11 @@
         'views/order_views.xml',
         'views/pekerja_views.xml',
         'views/konsumen_views.xml',
+        'views/selesai_views.xml',
+        'views/akunting_views.xml',
         
         
-    ],
+],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',

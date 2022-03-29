@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+<!-- gikuy.selesai tree view -->
+<record id="selesai_view_tree" model="ir.ui.view">
+    <field name="name">Riwayat Booking Order</field>
+    <field name="model">gikuy.selesai</field>
+    <field name="arch" type="xml">
+        <tree>
+            <!-- Add your fields here -->
+            <field name="order_id"/>
+            <field name="name"/>
+            <field name="noted"/>
+            <field name="bill"/>
+            
+            
+            
+        </tree>
+    </field>
+</record>
+
+
+
+<!-- gikuy.selesai action window -->
+<record id="selesai_action" model="ir.actions.act_window">
+    <field name="name">Riwayat Booking Order</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">gikuy.selesai</field>
+    <field name="view_mode">tree,form</field>
+    
+</record>
+
+
+
+
+    <!-- This Menu Item must have a parent and an action -->
+    <menuitem id="selesai_menu_act" name="Riwayat Booking Order" parent="order_menu_categ" action="selesai_action" sequence="20"/>
+
+
+</odoo>

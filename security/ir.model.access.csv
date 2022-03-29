@@ -5,4 +5,6 @@ access_gikuy_penginapan,access.gikuy.penginapan,model_gikuy_penginapan,,1,1,1,1
 access_gikuy_transport,access.gikuy.transport,model_gikuy_transport,,1,1,1,1
 access_gikuy_order,access.gikuy.order,model_gikuy_order,,1,1,1,1
 access_gikuy_orderrinci,access.gikuy.orderrinci,model_gikuy_orderrinci,,1,1,1,1
+access_gikuy_selesai,access.gikuy.selesai,model_gikuy_selesai,,1,1,1,1
+access_gikuy_akunting,access.gikuy.akunting,model_gikuy_akunting,,1,1,1,1
 
