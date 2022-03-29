@@ -35,6 +35,7 @@
         'views/transport_views.xml',
         'views/order_views.xml',
         'views/pekerja_views.xml',
+        'views/konsumen_views.xml',
         
         
     ],

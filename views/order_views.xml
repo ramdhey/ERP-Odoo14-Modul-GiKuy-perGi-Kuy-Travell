@@ -12,9 +12,11 @@
         <tree>
             
                 <!-- Add your fields here -->
-                <field name="name"/>   
-               <field name="tanggal_booking"/>          
-                <field name="total"/>                
+                <field name="name"/>
+                <field name="tanggal_booking"/>
+                <field name="namapemesannya"/>          
+                <field name="total"/>  
+                <field name="namapenerimaorder"/>              
                 <field name="rinciorderan_ids"/>
                 
             </tree>
@@ -38,8 +40,11 @@
                         <!-- Add your fields here -->
                         <field name="name"/> 
                         <field name="tanggal_booking"/>
-                        <field name="total"/>           
+                        <field name="namapemesannya"/>
+                        <field name="total"/>     
+                        <field name="namapenerimaorder"/>      
                         <field name="rinciorderan_ids">
+                            
                             <tree editable='bottom'>
                                 <field name="funtrip_id"/>
                                 <field name="hargaperunit"/>

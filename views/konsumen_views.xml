@@ -12,8 +12,7 @@
             <field name="vat" position="replace">
                 <field name="is_karyawan"/>
                 <field name="is_konsumen"/>
-            </field> 
-                       
+            </field>            
         </field>
     </record>
 
@@ -31,23 +30,23 @@
     </record>
 
     <!-- res.partner action window -->
-    <record id="res_partner_karyawan_action" model="ir.actions.act_window">
-        <field name="name">Karyawan</field>
+    <record id="res_partner_konsumen_action" model="ir.actions.act_window">
+        <field name="name">Pelanggan</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">res.partner</field>
         <field name="context">{
-            'search_default_karyawan':1,
-            'default_is_karyawan':True,
+            'search_default_pelanggan':1,
+            'default_is_konsumen':True,
         }
         </field>
         <field name="view_mode">tree,form</field>
     </record>
     <!-- This Menu Item must have a parent and an action -->
     <menuitem 
-        id="karyawan_menu_act" 
-        name="Karyawan" 
+        id="wedding_partner_konsumen_menu_act" 
+        name="Pelanggan" 
         parent="kontak_menu_categ" 
-        action="res_partner_karyawan_action" 
-        sequence="10"/>
+        action="res_partner_konsumen_action" 
+        sequence="20"/>
 
 </odoo>
